@@ -247,8 +247,8 @@ module overmind::slice_the_jpeg {
         // 
         // USE: Use the check_if_split_balance_is_above_zero function below
 
-        // TODO: Transfer the correct amount of AptosCoin from the coin owner to the module's 
-        //       resource account
+        // TODO: Transfer the correct amount of AptosCoin from the module's resource account to the coin
+        //       owner
 
         // TODO: Burn the coin owner's provided split tokens
         // 
