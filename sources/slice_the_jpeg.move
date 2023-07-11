@@ -292,6 +292,9 @@ module overmind::slice_the_jpeg {
 
         // TODO: Create a new named token in the split token collection
 
+        // TODO: Generates the object signer and the refs. The object signer is used to publish a resource
+        // (e.g., RestorationValue) under the token object address. The refs are used to manage the token.
+
         // TODO: Create the token's property_map with the following properties: 
         //       - nft address
         //       - call price
