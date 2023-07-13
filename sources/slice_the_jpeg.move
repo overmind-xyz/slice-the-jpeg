@@ -220,8 +220,8 @@ module overmind::slice_the_jpeg {
         // USE: Use the check_if_aptos_coin_balance_is_equal_to_or_greater_than_call_payment 
         //      function below
 
-        // TODO: Transfer the correct amount of AptosCoin from the coin owner to the module's
-        //       resource account
+        // TODO: Transfer the correct amount of AptosCoin from the module's resource account to 
+        //       the coin owner
 
         // TODO: Burn the coin owners provide split tokens
         // 
