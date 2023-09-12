@@ -220,8 +220,8 @@ module overmind::slice_the_jpeg {
         // USE: Use the check_if_aptos_coin_balance_is_equal_to_or_greater_than_call_payment 
         //      function below
 
-        // TODO: Transfer the correct amount of AptosCoin from the module's resource account to 
-        //       the coin owner
+        // TODO: Transfer the correct amount of AptosCoin from the coin owner to the module's
+        //       resource account
 
         // TODO: Burn the coin owners provide split tokens
         // 
@@ -353,9 +353,9 @@ module overmind::slice_the_jpeg {
         
     }
 
-    // HINT: Throw the EThresholdAmountIsGreaterThanTokenSupply code if the threshold amount is not 
-    //       greater than the token supply and throw EThresholdAmountIsNotGreaterThanHalfOfSupply 
-    //       if the threshold amount is not greter than half of the token supply
+    // HINT: Throw the EThresholdAmountIsGreaterThanTokenSupply code if the threshold amount is not
+    //       less than or equal to the token supply and throw EThresholdAmountIsNotGreaterThanHalfOfSupply
+    //       if the threshold amount is not greater than half of the token supply
     inline fun check_if_valid_call_threshold_amount(threshold_amount: u64, token_supply: u64) {
         
     }
